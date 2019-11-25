@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * FileChannel
+ * FileChannel exit from git server.
  * NIO 中FileChannel可以理解为一个连接到文件的通道，可以通过FileChannel对文件进行读写；
  * FileChannel没有非阻塞模式，读写都只有阻塞的方式；
  * <p>
