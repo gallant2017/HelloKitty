@@ -17,7 +17,11 @@ import java.util.Set;
 public class SingleThreadReactor implements Runnable {
 
     public static void main(String[] args) {
-        System.out.println("123");
+        try {
+            new Thread(new SingleThreadReactor()).start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     Selector selector;
