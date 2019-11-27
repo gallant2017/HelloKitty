@@ -29,7 +29,7 @@ public class SingleThreadReactor implements Runnable {
 
     public SingleThreadReactor() throws IOException {
         serverSocketChannel = serverSocketChannel.open();
-        serverSocketChannel.bind(new InetSocketAddress(3334));
+        serverSocketChannel.bind(new InetSocketAddress(3333));
         serverSocketChannel.configureBlocking(false);
         selector = Selector.open();
         SelectionKey selectionKey = serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
@@ -39,7 +39,7 @@ public class SingleThreadReactor implements Runnable {
     @Override
     public void run() {
 
-        while (Thread.interrupted()) {
+        while (!Thread.interrupted()) {
             try {
                 selector.select();
                 Set selected = selector.selectedKeys();
@@ -48,6 +48,7 @@ public class SingleThreadReactor implements Runnable {
                     SelectionKey sk = (SelectionKey) it.next();
                     dispatch(sk);
                 }
+                selected.clear();
             } catch (IOException e) {
                 e.printStackTrace();
             }
