@@ -33,7 +33,7 @@ public class ServerSocketChannelDemo {
         System.out.println("server start.....");
 
         //5:将通道注册到选择器上,并注册的IO事件为：“接收新连接”
-        serverSocketChannel.register(selector, SelectionKey.OP_READ);
+        serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         //6:轮询感兴趣的I/O就绪事件（选择键集合）
         while (selector.select() > 0) {
