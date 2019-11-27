@@ -1,10 +1,7 @@
 package com.gallant.nio;
 
 /**
-<<<<<<< HEAD
- * Created by huangjunhao server
- * by server
- * client
+ * Created by huangjunhao
  */
 public class gittest {
 }
