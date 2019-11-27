@@ -1,6 +1,5 @@
-package com.gallant.NIO;
+package com.gallant.nio;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -8,7 +7,7 @@ import java.nio.channels.FileChannel;
 
 /**
  * FileChannel exit from git server.
- * NIO 中FileChannel可以理解为一个连接到文件的通道，可以通过FileChannel对文件进行读写；
+ * nio 中FileChannel可以理解为一个连接到文件的通道，可以通过FileChannel对文件进行读写；
  * FileChannel没有非阻塞模式，读写都只有阻塞的方式；
  * <p>
  * <p>
@@ -23,8 +22,8 @@ public class FileChannelDemo {
 
     private static void fileChannelTest() {
         try {
-            RandomAccessFile in = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/NIO/src/main/resources/hello.txt", "rw");
-            RandomAccessFile out = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/NIO/src/main/resources/hello-copy.txt", "rw");
+            RandomAccessFile in = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/nio/src/main/resources/hello.txt", "rw");
+            RandomAccessFile out = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/nio/src/main/resources/hello-copy.txt", "rw");
             ByteBuffer bf = ByteBuffer.allocate(1024);
             FileChannel channelIn = in.getChannel();
             FileChannel channelOut = out.getChannel();
@@ -62,8 +61,8 @@ public class FileChannelDemo {
         FileChannel outChannel = null;
 
         try {
-            RandomAccessFile in = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/NIO/src/main/resources/hello.txt", "rw");
-            RandomAccessFile out = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/NIO/src/main/resources/hello-copy.txt", "rw");
+            RandomAccessFile in = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/nio/src/main/resources/hello.txt", "rw");
+            RandomAccessFile out = new RandomAccessFile("/Users/huangjunhao/Desktop/work/git/HelloKitty/nio/src/main/resources/hello-copy.txt", "rw");
             inChannel = in.getChannel();
             outChannel = out.getChannel();
             long position = 0;

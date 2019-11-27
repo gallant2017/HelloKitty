@@ -1,4 +1,4 @@
-package com.gallant.NIO;
+package com.gallant.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 /**
  *
- * NIO 三大组件
+ * nio 三大组件
  * Channel(通道),Buffer(缓冲器),Selector(选择器)
  * FileChannel不支持非阻塞,故不能使用Selector
  *
