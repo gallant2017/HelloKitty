@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a3c922-5af6-42f4-a88b-c7fd8e155001" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part1/src/main/java/com/gallant/nio/gittest.java" afterPath="$PROJECT_DIR$/part1/src/main/java/com/gallant/nio/gittest.java" />
     </list>
     <ignored path="HelloKitty.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="gittest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/nio/gittest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -301,12 +302,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574829631772</updated>
-      <workItem from="1574829633013" duration="1957000" />
+      <workItem from="1574829633013" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1957000" />
+    <option name="totallyTimeSpent" value="2133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -364,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/nio/gittest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
