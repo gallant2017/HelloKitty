@@ -1,4 +1,4 @@
-package reactor;
+package com.gallant.reactor;
 
 
 import java.io.IOException;
@@ -59,7 +59,6 @@ public class SingleThreadReactor implements Runnable {
         Runnable handler = (Runnable) sk.attachment();
         if (handler != null) {
             handler.run();
-            ;
         }
     }
 
