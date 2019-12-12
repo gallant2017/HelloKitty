@@ -5,6 +5,16 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.function.Function;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * FileChannel exit from git server.
@@ -18,7 +28,79 @@ public class FileChannelDemo {
 
     public static void main(String[] args) throws IOException {
 //        fileChannelTest();
-        transferFromTest();
+       // transferFromTest();
+
+        List<FutureTask<Boolean>> lst=new ArrayList<FutureTask<Boolean>>();
+        long startTime=System.currentTimeMillis();   //获取开始时间
+        for (int j = 0; j <= 200; j++) {
+            Callable<Boolean> callTest = new test();
+            FutureTask<Boolean> futureTest = new FutureTask<Boolean>(callTest);
+            Thread threadTest = new Thread(futureTest, "线程" + j);
+            threadTest.start();
+            lst.add(futureTest);
+        }
+
+        //等待所有线程完成
+        lst.stream().forEach(p -> {
+            try {
+                p.get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+        });
+
+        long endTime=System.currentTimeMillis(); //获取结束时间
+        System.out.println("#######总耗时:" + (endTime - startTime) + "ms");
+    }
+
+    static class test implements Callable<Boolean> {
+
+        @Override
+        public Boolean call() throws Exception {
+            long startTime=System.currentTimeMillis();   //获取开始时间
+            for (int i = 0; i <= 100000; i++) {
+                isPhone("18701171838");
+            }
+            long endTime=System.currentTimeMillis(); //获取结束时间
+            System.out.println(Thread.currentThread().getName() + " 耗时:" + (endTime - startTime) + "ms");
+            return true;
+        }
+    }
+
+    public static boolean isPhone(String phone) {
+        Pattern p = Pattern.compile("^1[3-9]{1}[0-9]{9}$");
+        Matcher m = p.matcher(phone);
+        if (m.matches()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean isEmail(String email) {
+        if (null == email || "".equals(email)) {
+            return false;
+        }
+        String regEx1 = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
+        Pattern p = Pattern.compile(regEx1);
+        Matcher m = p.matcher(email);
+        if (m.matches()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    static String[] users;
+
+    static {
+        users=new String[]{
+                "111",
+                "222",
+                "333",
+                "中国"
+        };
     }
 
     private static void fileChannelTest() {

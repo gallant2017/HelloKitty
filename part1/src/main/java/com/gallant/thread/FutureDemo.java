@@ -5,6 +5,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
+ * Runnable的run方法没有返回值,所以不能永不需要返回值的应用场景
+ * 这时可以使用Callable接口,但Callable接口的实例并不能作为Thread线程实例的target来执行,故使用futrueTaek作为
+ * 一座桥梁,连接Runable和Callable
  * Created by huangjunhao on 19/12/5.
  */
 public class FutureDemo {

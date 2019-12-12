@@ -22,10 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="part1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NIO" target="1.5" />
+      <module name="part1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
