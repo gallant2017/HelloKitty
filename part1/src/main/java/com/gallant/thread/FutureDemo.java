@@ -26,7 +26,7 @@ public class FutureDemo {
 
         thread1.start();
         thread2.start();
-
+        thread1.join();
 
         try {
             System.out.println( future1.get());

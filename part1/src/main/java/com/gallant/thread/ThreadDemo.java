@@ -12,7 +12,6 @@ import java.net.SocketTimeoutException;
 public class ThreadDemo {
 
     public static void main(String[] args) throws InterruptedException {
-
         System.out.println("东东日常, " + Thread.currentThread().getName());
         Thread x1=new 脱裤子();
         Thread x2=new 舌吻();
