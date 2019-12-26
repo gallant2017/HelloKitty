@@ -1,4 +1,4 @@
-package com.gallant.thread;
+package com.gallant.ReentrantLock;
 
 
 import com.gallant.common.Print;
@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * unlock 释放锁
  * Created by huangjunhao on 19/12/26.
  */
-public class ReentrantLockDemo {
+public class LockDemo {
 
     static ReentrantLock lock = new ReentrantLock();
     static int i = 0;
@@ -23,7 +23,9 @@ public class ReentrantLockDemo {
         public void run() {
             for (int j = 0; j < 1000000; j++) {
                 lock.lock();
+                lock.lock();
                 i++;
+                lock.unlock();
                 lock.unlock();
             }
         }
