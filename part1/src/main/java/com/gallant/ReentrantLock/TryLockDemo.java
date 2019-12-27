@@ -1,4 +1,4 @@
-package com.gallant.ReentrantLock;
+package com.gallant.reentrantLock;
 
 import com.gallant.common.Print;
 

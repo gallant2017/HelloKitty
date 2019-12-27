@@ -1,4 +1,4 @@
-package com.gallant.ReentrantLock;
+package com.gallant.reentrantLock;
 
 import com.gallant.common.Print;
 
@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
- * Condition 和 ReentrantLock 配合使用 (相当于 Synchronized 和 wait)
+ * Condition 和 reentrantLock 配合使用 (相当于 Synchronized 和 wait)
  * condition.await();  -> obj.wait()
  * condition.signal()  -> obj.notify()
  * condition.signalAll()  -> obj.notifyAll()

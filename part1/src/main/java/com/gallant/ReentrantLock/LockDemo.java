@@ -1,4 +1,4 @@
-package com.gallant.ReentrantLock;
+package com.gallant.reentrantLock;
 
 
 import com.gallant.common.Print;
@@ -6,7 +6,7 @@ import com.gallant.common.Print;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * ReentrantLock 重入锁
+ * reentrantLock 重入锁
  *
  * lock 获取锁 (可以多次获得,但也需要多次释放,否则其它线程将无法进入临界区)
  * unlock 释放锁
