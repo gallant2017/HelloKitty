@@ -43,5 +43,7 @@ public class RejectDemo {
         for (int i = 0; i < 1000; i++) {
             exec.submit(myTask);
         }
+        exec.shutdown();
+//        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }
