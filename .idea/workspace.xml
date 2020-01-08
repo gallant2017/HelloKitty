@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a3c922-5af6-42f4-a88b-c7fd8e155001" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloKitty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloKitty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/part1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/ConditionDemo$R.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/ConditionDemo$R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/ConditionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/ConditionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/LockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/LockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/TryLockDemo$R.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/TryLockDemo$R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/TryLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/ReentrantLock/TryLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/executor/CustomerExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/executor/CustomerExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/executor/RejectDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/executor/RejectDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/guava/GuavaFutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/guava/GuavaFutureDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/java8/LamabaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/java8/LamabaDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/nio/FileChannelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/nio/FileChannelDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/thread/FutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/thread/FutureDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/target/classes/com/gallant/thread/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/part1/target/classes/com/gallant/thread/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/part2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part2/part2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3-spring-cloud/pom.xml" afterDir="false" />
     </list>
     <list id="298b93ed-8010-42a5-bf2d-ea988bf33bd8" name="Revert: '1'1" comment="" />
     <ignored path="HelloKitty.iws" />
@@ -29,6 +12,7 @@
     <ignored path="$PROJECT_DIR$/part1/target/" />
     <ignored path="$PROJECT_DIR$/part2/target/" />
     <ignored path="$PROJECT_DIR$/part3-spring-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +58,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/blockingQueue/linkedBlockQueue/Step3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part2/src/main/java/com/gallant/zookeeper/ClientSync.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -91,25 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloKitty.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="262">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud/src/main/java/com/gallant/Part3SpringCloudApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -117,24 +87,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part2/part2.iml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -165,6 +117,7 @@
         <option value="$PROJECT_DIR$/part3-spring-cloud/src/main/java/com/gallant/Part3SpringCloudApplication.java" />
         <option value="$PROJECT_DIR$/part3-spring-cloud/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,60 +186,6 @@
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gallant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -305,6 +204,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\java\HelloKitty" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -906,12 +810,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578446535702</updated>
-      <workItem from="1578446537420" duration="443000" />
+      <workItem from="1578446537420" duration="916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2663000" />
+    <option name="totallyTimeSpent" value="3136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -933,7 +837,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299712" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32230216" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32213742" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.44172662" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32671756" />
@@ -1003,7 +907,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java" />
     <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/common/Print.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1073,13 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="316" column="81" selection-start-line="316" selection-start-column="67" selection-end-line="316" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloKitty.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2326,8 +2222,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part3-spring-cloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="925">
           <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloKitty.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -2383,7 +2293,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HelloKitty</last-edited>
+          <last-edited>part3-spring-cloud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
