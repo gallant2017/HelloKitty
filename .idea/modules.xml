@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/part1/part1.iml" filepath="$PROJECT_DIR$/part1/part1.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2/part2.iml" filepath="$PROJECT_DIR$/part2/part2.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud/part3-spring-cloud.iml" filepath="$PROJECT_DIR$/part3-spring-cloud/part3-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" />
     </modules>
   </component>
 </project>
