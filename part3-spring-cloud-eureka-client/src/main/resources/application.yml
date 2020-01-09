@@ -1,0 +1,10 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: eureka-client-01
+server:
+  port: 3334

@@ -45,6 +45,8 @@
         <option value="$PROJECT_DIR$/part2/pom.xml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/pom.xml" />
       </list>
     </option>
   </component>
