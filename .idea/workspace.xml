@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a3c922-5af6-42f4-a88b-c7fd8e155001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/eureka.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/part1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/part2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part2/part2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/test/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java" afterDir="false" />
     </list>
     <list id="298b93ed-8010-42a5-bf2d-ea988bf33bd8" name="Revert: '1'1" comment="" />
     <ignored path="HelloKitty.iws" />
@@ -57,33 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,33 +57,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="175">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.1.RELEASE/spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/support/AbstractLoadBalancingClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="72">
+              <caret line="91" column="26" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/Part3SpringCloudEurekaConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/eureka.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="179">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/LoadBalancerContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <folding>
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4051#4052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -135,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/Part3SpringCloudEurekaClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="275">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,20 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="213">
               <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -191,7 +172,6 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/Part3SpringCloudEurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/pom.xml" />
@@ -200,6 +180,7 @@
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/TestController.java" />
         <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java" />
       </list>
     </option>
   </component>
@@ -241,25 +222,25 @@
             <path>
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -267,21 +248,11 @@
             <path>
               <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloKitty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloKitty" type="462c0819:PsiDirectoryNode" />
-              <item name="part3-spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="part3springcloudeurekaserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,13 +269,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/part3-spring-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/part3-spring-cloud-eureka-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\java\HelloKitty\part3-spring-cloud-eureka-server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\java\HelloKitty" />
       <recent name="D:\projects\java\HelloKitty\part3" />
@@ -326,7 +300,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.36652836" />
+    <option name="contentProportion" value="0.3229599" />
   </component>
   <component name="RunManager" selected="Spring Boot.Part3SpringCloudEurekaClientApplication">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -926,18 +900,18 @@
       <updated>1578446535702</updated>
       <workItem from="1578446537420" duration="5443000" />
       <workItem from="1578482669202" duration="4141000" />
-      <workItem from="1578531696742" duration="13131000" />
+      <workItem from="1578531696742" duration="16864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24935000" />
+    <option name="totallyTimeSpent" value="28668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.3022942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.19905533" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -945,7 +919,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" sideWeight="0.5011389" side_tool="true" weight="0.23549257" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.56946564" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.56946564" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45496184" />
@@ -953,7 +927,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299712" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32164633" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31908396" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.43969464" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32671756" />
@@ -971,7 +945,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.29470673" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.18097281" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.27327934" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.14507422" />
       <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
@@ -1025,35 +999,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/FutureTask.java" />
-    <entry file="file://$PROJECT_DIR$/part1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/util/concurrent/ListeningExecutorService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/util/concurrent/Futures.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="316" column="81" selection-start-line="316" selection-start-column="67" selection-end-line="316" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/executor/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part1/src/main/java/com/gallant/nio/FileChannelDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -2330,16 +2275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -2361,13 +2296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/Part3SpringCloudEurekaConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -2376,16 +2304,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2409,20 +2327,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaclient/Part3SpringCloudEurekaClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="275">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaconsumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/LoadBalancerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4051#4052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.1.RELEASE/spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/support/AbstractLoadBalancingClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/eureka.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/src/main/java/com/gallant/spring/cloud/part3springcloudeurekaserver/Part3SpringCloudEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
