@@ -1,0 +1,11 @@
+version: '1.24.1'
+services:
+  #声明构建容器的名称，docker-compose start和stop命令可以使用
+  eurea-client:
+  #使用指定目录下的Dockerfile进行构建
+    build: .
+  #相当于docker run命令的-p参数，用于声明对外开放的端口
+    ports:
+    - "3334:3334"
+    - "3335:3335"
+    - "3336:3336"

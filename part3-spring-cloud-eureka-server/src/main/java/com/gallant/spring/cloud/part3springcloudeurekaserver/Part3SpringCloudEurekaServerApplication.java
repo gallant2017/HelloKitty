@@ -23,6 +23,15 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * 讲了 Eureka 核心概念、Eureka 自我保护机制和 Eureka 集群原理。通过分析 Eureka 工作原理，我可以明显地感觉到 Eureka 的设计之巧妙，通过一些列的机制，完美地解决了注册中心的稳定性和高可用性。
  * Eureka 为了保障注册中心的高可用性，容忍了数据的非强一致性，服务节点间的数据可能不一致， Client-Server 间的数据可能不一致。比较适合跨越多机房、对注册中心服务可用性要求较高的使用场景。
  * 架构图见 eureka.png
+ *
+ * 部署到docker上，容器之家相互访问 ,运行以下命令
+ * nmcli connection modify docker0 connection.zone trusted
+ * systemctl stop NetworkManager.service
+ * firewall-cmd --permanent --zone=trusted --change-interface=docker0
+ * systemctl start NetworkManager.service
+ * nmcli connection modify docker0 connection.zone trusted
+ * systemctl restart docker.service
+ * *
  */
 @SpringBootApplication
 @EnableEurekaServer
