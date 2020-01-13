@@ -7,4 +7,4 @@ spring:
   application:
     name: eureka-client-01
 server:
-  port: 3334
+  port: 3335

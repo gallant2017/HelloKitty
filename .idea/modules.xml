@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud/part3-spring-cloud.iml" filepath="$PROJECT_DIR$/part3-spring-cloud/part3-spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud-eureka-client/part3-spring-cloud-eureka-client.iml" filepath="$PROJECT_DIR$/part3-spring-cloud-eureka-client/part3-spring-cloud-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/part3-spring-cloud-eureka-consumer.iml" filepath="$PROJECT_DIR$/part3-spring-cloud-eureka-consumer/part3-spring-cloud-eureka-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" />
     </modules>
   </component>
 </project>
