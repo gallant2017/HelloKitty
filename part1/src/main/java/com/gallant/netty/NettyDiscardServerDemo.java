@@ -53,9 +53,11 @@ public class NettyDiscardServerDemo {
             //开始绑定服务器
             //通过调用sync同步方法阻塞直到绑定成功
             ChannelFuture channelFuture = bootstrap.bind().sync();
+            System.out.println("after----bootstrap.bind().sync()");
             //服务监听通道会一直等待通道关闭的异步任务结束
             ChannelFuture closeFuture = channelFuture.channel().closeFuture();
             closeFuture.sync();
+            System.out.println("after----channelFuture.channel().closeFuture()");
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
