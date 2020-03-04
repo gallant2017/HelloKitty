@@ -19,9 +19,16 @@
         <module name="part3-spring-cloud-eureka-server" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel target="1.8">
       <module name="part1" target="1.5" />
       <module name="part2" target="1.5" />
+=======
+    <bytecodeTargetLevel>
+      <module name="part1" target="8" />
+      <module name="part2" target="8" />
+      <module name="part3-spring-cloud" target="1.8" />
+>>>>>>> 5eae62e09ade46f40f03f849c636e218e44e33b3
       <module name="part3-spring-cloud-eureka-client" target="1.8" />
       <module name="part3-spring-cloud-eureka-consumer" target="1.8" />
       <module name="part3-spring-cloud-eureka-server" target="1.8" />
