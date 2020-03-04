@@ -2,12 +2,22 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://172.17.0.1:8761/eureka/
+      #defaultZone: http://172.17.0.1:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
     instance-id:  ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
 spring:
   application:
     name: eureka-consumer-01
+
 server:
   port: 8089
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 8000
+

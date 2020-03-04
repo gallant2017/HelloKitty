@@ -1,5 +1,6 @@
 package com.gallant.spring.cloud.part3springcloudeurekaconsumer.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -28,10 +29,20 @@ public class ConsumerController {
         System.out.println(url);
         return url;
     }
+
+    @HystrixCommand(fallbackMethod = "testBack")
     @GetMapping("/hello")
-    public String test(){
-        RestTemplate restTemplate =new RestTemplate();
-        return "consumer-> service :" + restTemplate.getForObject(getUrl("EUREKA-CLIENT-01","/test"), String.class);
+    public UsersDto test() {
+        RestTemplate restTemplate = new RestTemplate();
+        return restTemplate.getForObject(getUrl("EUREKA-CLIENT-01", "/test"), UsersDto.class);
+    }
+
+    public UsersDto testBack() {
+        UsersDto obj = new UsersDto();
+        obj.setUserName("托底数据");
+        obj.setSex("女");
+        obj.setAddrs("潘多拉");
+        return obj;
     }
 
 }

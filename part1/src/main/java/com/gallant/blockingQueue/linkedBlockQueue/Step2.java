@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 public class Step2 implements Runnable {
 
-    public static BlockingQueue<Msg> step2BQ = new LinkedBlockingQueue<>();
+    public static BlockingQueue<Msg> step2BQ = new LinkedBlockingQueue<Msg>();
     public static boolean stop = false;
 
     @Override

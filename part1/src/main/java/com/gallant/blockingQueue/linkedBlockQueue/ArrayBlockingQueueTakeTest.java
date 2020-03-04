@@ -5,6 +5,7 @@ import com.gallant.common.Print;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * BlockingQueue 线程间共享数据通道就是很好的使用了ReentrantLock的例子

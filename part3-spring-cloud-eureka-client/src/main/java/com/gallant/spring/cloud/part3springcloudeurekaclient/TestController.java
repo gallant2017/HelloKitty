@@ -18,7 +18,11 @@ public class TestController {
     String port;
 
     @GetMapping(value = {"/test"})
-    public String test() {
-        return "hello,I'm from client1:"+port;
+    public UsersDto test() {
+        UsersDto obj = new UsersDto();
+        obj.setUserName("张小三");
+        obj.setSex("难");
+        obj.setAddrs("from " + port);
+        return obj;
     }
 }

@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * Created by huangjunhao on 19/12/29.
  */
 public class Step3 implements Runnable {
-    public static BlockingQueue<Msg> step3BQ = new LinkedBlockingQueue<>();
+    public static BlockingQueue<Msg> step3BQ = new LinkedBlockingQueue<Msg>();
     public static boolean stop = false;
 
     @Override

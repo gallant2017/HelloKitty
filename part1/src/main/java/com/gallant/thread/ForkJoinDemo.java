@@ -7,13 +7,7 @@ import java.util.concurrent.RecursiveTask;
  *
  * Created by huangjunhao on 20/2/18.
  */
-public class ForkJoinDemo extends RecursiveTask<long>{
+public class ForkJoinDemo {
 
 
-
-    @Override
-    protected long compute() {
-
-        return 0;
-    }
 }
