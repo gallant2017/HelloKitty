@@ -20,8 +20,8 @@ public class ClientSync implements Watcher {
     private static Stat stat = new Stat();
 
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
-        String path="/zkpro";
-        zk=new ZooKeeper("192.168.16.132",5000,
+        String path="/xxoo";
+        zk=new ZooKeeper("192.168.210.129",5000,
                 new ClientSync());
         connectedSemaphore.await();
         System.out.println(new String(zk.getData(path,true,stat)));

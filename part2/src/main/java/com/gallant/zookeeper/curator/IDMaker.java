@@ -10,7 +10,7 @@ import org.apache.zookeeper.common.StringUtils;
  */
 public class IDMaker {
 
-    private final String ZK_ADDRESS = "192.168.16.132";
+    private final String ZK_ADDRESS = "192.168.210.129";
     //Zk客户端
     CuratorFramework client = null;
 

@@ -31,12 +31,12 @@ public class ClientFactory {
     }
 
     public static void main(String[] args) {
-        CuratorFramework client = ClientFactory.createSimple("192.168.16.132");
+        CuratorFramework client = ClientFactory.createSimple("192.168.210.129:2181");
         client.start();
         try {
-            String data = "fuck you.";
+            String data = "hello,";
             byte[] payload = data.getBytes("UTF-8");
-            String zkPath = "/zkpro/note-1";
+            String zkPath = "/xxoo";
             client.create()
                     .creatingParentsIfNeeded()
                     .withMode(CreateMode.PERSISTENT)
