@@ -8,10 +8,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gallant.dubbo.provider</groupId>
-	<artifactId>part4dubboprovider</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>part4dubboconsumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>part4-dubbo-provider</name>
+	<name>part4-dubbo-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -25,11 +25,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -40,7 +35,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		<!-- log4j的依赖 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
+		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>

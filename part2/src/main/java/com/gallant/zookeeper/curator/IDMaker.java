@@ -1,6 +1,7 @@
 package com.gallant.zookeeper.curator;
 
 import org.apache.curator.framework.CuratorFramework;
+import org.apache.curator.shaded.com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.common.StringUtils;
 
@@ -50,13 +51,14 @@ public class IDMaker {
         return str;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         IDMaker maker=new IDMaker();
         maker.init();
         String noteName="/zkpro/idtest/ID-";
-        for (int i=0;i<1000;i++) {
+        for (int i=0;i<100;i++) {
             String id=maker.makeId(noteName);
             System.out.println("第" + i + "个创建的Id为：" + id);
+            Thread.sleep(1000);
         }
     }
 }
