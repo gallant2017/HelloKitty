@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-common/part4-dubbo-common.iml" filepath="$PROJECT_DIR$/part4-dubbo-common/part4-dubbo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-consumer/part4-dubbo-consumer.iml" filepath="$PROJECT_DIR$/part4-dubbo-consumer/part4-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-provider/part4-dubbo-provider.iml" filepath="$PROJECT_DIR$/part4-dubbo-provider/part4-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part4-dubbo-spi/part4-dubbo-spi.iml" filepath="$PROJECT_DIR$/part4-dubbo-spi/part4-dubbo-spi.iml" />
     </modules>
   </component>
 </project>

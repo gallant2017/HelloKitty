@@ -20,17 +20,19 @@
         <module name="part4-dubbo-common" />
         <module name="part4-dubbo-consumer" />
         <module name="part4-dubbo-provider" />
+        <module name="part4-dubbo-spi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="part1" target="1.5" />
-      <module name="part2" target="1.5" />
+      <module name="part1" target="1.8" />
+      <module name="part2" target="1.8" />
       <module name="part3-spring-cloud-eureka-client" target="1.8" />
       <module name="part3-spring-cloud-eureka-consumer" target="1.8" />
       <module name="part3-spring-cloud-eureka-server" target="1.8" />
       <module name="part4-dubbo-common" target="1.5" />
       <module name="part4-dubbo-consumer" target="1.8" />
       <module name="part4-dubbo-provider" target="1.8" />
+      <module name="part4-dubbo-spi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

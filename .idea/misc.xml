@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/part4-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/part4-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/part4-dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/part4-dubbo-spi/pom.xml" />
       </list>
     </option>
   </component>
