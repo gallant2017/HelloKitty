@@ -1,38 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
     <wildcardResourcePatterns />
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="part1" />
-        <module name="part2" />
-        <module name="part3-spring-cloud-eureka-client" />
         <module name="part3-spring-cloud-eureka-consumer" />
+        <module name="part4dubboprovider" />
         <module name="part3-spring-cloud-eureka-server" />
         <module name="part4-dubbo-common" />
-        <module name="part4-dubbo-consumer" />
-        <module name="part4-dubbo-provider" />
         <module name="part4-dubbo-spi" />
+        <module name="part4-dubbo-provider" />
+        <module name="part2" />
+        <module name="part1" />
+        <module name="spi" />
+        <module name="part4dubboconsumer" />
+        <module name="part3-spring-cloud-eureka-client" />
+        <module name="part4-dubbo-consumer" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="part1" target="1.8" />
-      <module name="part2" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="common" target="1.5" />
+      <module name="part1" target="1.5" />
+      <module name="part2" target="1.5" />
       <module name="part3-spring-cloud-eureka-client" target="1.8" />
       <module name="part3-spring-cloud-eureka-consumer" target="1.8" />
       <module name="part3-spring-cloud-eureka-server" target="1.8" />
-      <module name="part4-dubbo-common" target="1.5" />
+      <module name="part4-dubbo-common" target="8" />
       <module name="part4-dubbo-consumer" target="1.8" />
       <module name="part4-dubbo-provider" target="1.8" />
-      <module name="part4-dubbo-spi" target="1.8" />
+      <module name="part4-dubbo-spi" target="8" />
+      <module name="part4dubboconsumer" target="1.8" />
+      <module name="part4dubboprovider" target="1.8" />
+      <module name="spi" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="part3-spring-cloud-eureka-client" options="-parameters" />
+      <module name="part3-spring-cloud-eureka-consumer" options="-parameters" />
+      <module name="part3-spring-cloud-eureka-server" options="-parameters" />
+      <module name="part4dubboconsumer" options="-parameters" />
+      <module name="part4dubboprovider" options="-parameters" />
+    </option>
   </component>
 </project>
