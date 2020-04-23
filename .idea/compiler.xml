@@ -15,7 +15,7 @@
         <module name="part4-dubbo-provider" />
         <module name="part2" />
         <module name="part1" />
-        <module name="spi" />
+        <module name="part4-dubbo-javaSPI" />
         <module name="part4dubboconsumer" />
         <module name="part3-spring-cloud-eureka-client" />
         <module name="part4-dubbo-consumer" />
@@ -31,6 +31,7 @@
       <module name="part3-spring-cloud-eureka-server" target="1.8" />
       <module name="part4-dubbo-common" target="8" />
       <module name="part4-dubbo-consumer" target="1.8" />
+      <module name="part4-dubbo-javaSPI" target="1.8" />
       <module name="part4-dubbo-provider" target="1.8" />
       <module name="part4-dubbo-spi" target="8" />
       <module name="part4dubboconsumer" target="1.8" />
@@ -43,6 +44,7 @@
       <module name="part3-spring-cloud-eureka-client" options="-parameters" />
       <module name="part3-spring-cloud-eureka-consumer" options="-parameters" />
       <module name="part3-spring-cloud-eureka-server" options="-parameters" />
+      <module name="part4-dubbo-javaSPI" options="-parameters" />
       <module name="part4dubboconsumer" options="-parameters" />
       <module name="part4dubboprovider" options="-parameters" />
     </option>

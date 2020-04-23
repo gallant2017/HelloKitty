@@ -12,11 +12,11 @@
       <module fileurl="file://$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/part3-spring-cloud-eureka-server/part3-spring-cloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-common/part4-dubbo-common.iml" filepath="$PROJECT_DIR$/part4-dubbo-common/part4-dubbo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-consumer/part4-dubbo-consumer.iml" filepath="$PROJECT_DIR$/part4-dubbo-consumer/part4-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part4-dubbo-javaSPI/part4-dubbo-javaSPI.iml" filepath="$PROJECT_DIR$/part4-dubbo-javaSPI/part4-dubbo-javaSPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-provider/part4-dubbo-provider.iml" filepath="$PROJECT_DIR$/part4-dubbo-provider/part4-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-spi/part4-dubbo-spi.iml" filepath="$PROJECT_DIR$/part4-dubbo-spi/part4-dubbo-spi.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-consumer/part4dubboconsumer.iml" filepath="$PROJECT_DIR$/part4-dubbo-consumer/part4dubboconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/part4-dubbo-provider/part4dubboprovider.iml" filepath="$PROJECT_DIR$/part4-dubbo-provider/part4dubboprovider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/part4-dubbo-spi/spi.iml" filepath="$PROJECT_DIR$/part4-dubbo-spi/spi.iml" />
     </modules>
   </component>
 </project>
